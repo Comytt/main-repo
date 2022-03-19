@@ -65,7 +65,7 @@
 }
 
 .versecontainer:hover .verseimage {
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .versecontainer:hover .versetext {
@@ -73,8 +73,6 @@
 }
 
 .imagetext {
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+  font-size:16px;
+  text-decoration: none;
 }
