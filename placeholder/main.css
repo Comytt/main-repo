@@ -38,3 +38,9 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.verseimage {
+  border-radius:30px;
+  width:100px;
+  height:100px;
+}
