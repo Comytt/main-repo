@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap');
+
+.navigation {
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+}	
+
+.navigation th{
+	padding-right: 330px;
+	font-size: 20px;
+}
+
+#navlogo {
+	width: 50px;
+	length: 50px;
+	padding-right: 50px;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #22B1D3;
+
+}
+
+body, html {
+  height: 100%;
+}
+.bg { 
+  /* The image used */
+  background-image: url("webfrontpage.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Container holding the image and the text */
+/* Centered text */
+.tophead {
+	position: absolute;
+ 	top: 15%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	font-family: 'Luckiest Guy', cursive;
+	font-size: 50px;
+}
+.bottomhead {
+	position: absolute;
+ 	top: 93%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	font-family: 'Luckiest Guy', cursive;
+	font-size: 40px;
+}
+
+#miss {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+.mission {
+	 /* The image used */
+  background-image: url("missionimg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.misshead {
+	position: absolute;
+ 	top: 15%;
+ 	left: 50%;
+ 	transform: translate(-50%, 2700%);
+ 	font-family: 'Luckiest Guy', cursive;
+	font-size: 50px;
+}
+
+.misstext {
+	position: absolute;
+ 	top: 15%;
+ 	left: 50%;
+ 	transform: translate(-50%, 1010%);
+ 	font-family: 'Nunito', sans-serif;
+	font-size: 35px;
+}
+
+#contactnav {
+	padding-right: 1000px;
+}
+
+@media only screen and (max-height: 1052px) {
+	.tophead {
+	position: absolute;
+ 	top: 40%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	font-family: 'Luckiest Guy', cursive;
+	font-size: 50px;
+  }
+}

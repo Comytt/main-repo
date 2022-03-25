@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+.navigation th{
+	padding-right: 150px;
+}
+
+#navlogo {
+	width: 50px;
+	length: 50px;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #22B1D3;
+}
