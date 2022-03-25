@@ -148,6 +148,6 @@ body, html {
 	height: 250px;
 }
 
-.abtusbtn: hover {
+.abtusbtn:hover {
 	transform: scale(1.5);
 }
