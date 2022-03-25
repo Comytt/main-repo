@@ -111,6 +111,22 @@ body, html {
  	font-family: 'Luckiest Guy', cursive;
 	font-size: 50px;
   }
+  .misshead {
+	position: absolute;
+ 	top: 15%;
+ 	left: 50%;
+ 	transform: translate(-50%, 1800%);
+ 	font-family: 'Luckiest Guy', cursive;
+	 font-size: 50px;
+}
+.misstext {
+	position: absolute;
+ 	top: 15%;
+ 	left: 50%;
+ 	transform: translate(-50%, 700%);
+ 	font-family: 'Nunito', sans-serif;
+	font-size: 35px;
+}
 }
 
 .abtusbtn {
