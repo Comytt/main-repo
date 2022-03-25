@@ -132,3 +132,8 @@ body, html {
 .abtusbtn {
 	border-radius: 12px;
 }
+
+.aboutusimage {
+	width: 300px;
+	height: 250px;
+}
