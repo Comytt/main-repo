@@ -131,6 +131,15 @@ body, html {
 
 .abtusbtn {
 	border-radius: 12px;
+		background-color:#22B1D3;
+		border: none;
+		color: white;
+		padding: 20px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 5px 30px;
 }
 
 #abtimg {
