@@ -147,6 +147,7 @@ body, html {
 #abtimg {
 	width: 300px;
 	height: 250px;
+	border-radius: 12px;
 }
 
 .abtusbtn:hover {
@@ -156,6 +157,7 @@ body, html {
 #photoimg {
 	width:300px;
 	height: 250px;
+	border-radius: 12px;
 }
 
 .photobtn {
