@@ -153,6 +153,11 @@ body, html {
 	transform: scale(1.2);
 }
 
+#photoimg {
+	width:300px;
+	height: 250px;
+}
+
 .photobtn {
 		border-radius: 12px;
 		background-color:#22B1D3;
