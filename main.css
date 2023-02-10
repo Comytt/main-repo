@@ -5,9 +5,9 @@ body{
 }
 .toggle{
   position: fixed;
-  top: 40px;
-  left: 40px;
-  z-index: 2
+  top: 0px;
+  left: 0px;
+  z-index: 1
 }
 .toggle a{
   text-decoration: none;
