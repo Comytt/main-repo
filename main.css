@@ -5,8 +5,8 @@ body{
 }
 .toggle{
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 100px;
+  left: 100px;
   z-index: 2
 }
 .toggle a{
