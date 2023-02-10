@@ -70,7 +70,7 @@
        text-decoration: none;
      }
 
-   } //end li
+   }  li
 
    > .active {
 
@@ -81,13 +81,13 @@
 
    }
 
- } //end .navbar-nav
+ }  .navbar-nav
 
- //Collapsed styles
+ /*Collapsed styles*/
  .navbar-toggle {
    border-color: #C57ED3;
 
-     &:hover, &:focus {
+     :hover, :focus {
        background-color: #490D40;
      }
 
@@ -104,7 +104,7 @@
    background-color: #490D40;
  }
    
-} //end .navbar-default
+} /*end .navbar-default
 
 
 
@@ -129,9 +129,9 @@
            transition: color 1s ease 0s;
          }
 
-      } //end li
+      }  li
 
-   } //end .navbar-nav
+   } .navbar-nav
 
 }
 
