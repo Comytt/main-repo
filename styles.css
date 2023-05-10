@@ -55,4 +55,7 @@ width: 320px;
   border-radius: 50%;
   display: inline;
   float: left;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
