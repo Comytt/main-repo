@@ -49,8 +49,8 @@ width: 320px;
   padding: 10px;
   border: 5px solid gray;
   margin: 0;
+}
+
+.navboximg {
   border-radius: 50%;
-  width: 50px;
-  height: 30px;
-  display: inline;
 }
