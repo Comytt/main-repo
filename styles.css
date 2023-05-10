@@ -27,7 +27,7 @@ body {
 
 .nav li {
   margin: 0;
-  display: inline;
+  float: left;
   padding: 0;
   z-index: 1;
 }
@@ -43,8 +43,4 @@ body {
 .nav a:hover {
   background-color: #555;
   z-index: 1;
-}
-
-li {
-  display: inline;
 }
