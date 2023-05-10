@@ -1,89 +1,16 @@
-/* Global Styles */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav li {
-    margin-right: 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-h1, h2, h3 {
-    font-weight: normal;
-}
-
-/* Specific Styles */
-
-#about {
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-#events ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#events li {
-    margin-bottom: 10px;
-}
-
-#contact form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-}
-
-#contact label {
-    margin-bottom: 10px;
-}
-
-#contact input, #contact textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 5px;
-}
-
-#contact input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-}
-
-#contact input[type="submit"]:hover {
-    background-colo
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("/pictures/nadid.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
