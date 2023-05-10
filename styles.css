@@ -1,7 +1,6 @@
 html { 
-    background: url(/pictures/nadid.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background: url(/pictures/nadid.jpg) center center cover no-repeat fixed;
   }
