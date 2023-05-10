@@ -18,27 +18,25 @@ body {
   z-index: 1;
 }
 .nav ul {
-  list-style: none;
-  display: inline;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  z-index: 1;
+  overflow: hidden;
+  background-color: #333333;
 }
 
 .nav li {
-  margin: 0;
   float: left;
-  padding: 0;
-  z-index: 1;
 }
 
-.nav a {
+.nav li a {
   display: block;
-  color: #fff;
+  color: white;
+  text-align: center;
+  padding: 16px;
   text-decoration: none;
-  padding: 10px;
-  z-index: 1;
 }
+
 
 .nav a:hover {
   background-color: #555;
