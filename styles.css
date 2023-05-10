@@ -44,34 +44,13 @@ body {
   z-index: 1;
 }
 
-.box-wrapper {
-  height: 95vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-#box1 {
+.navboxes {
+width: 320px;
   padding: 10px;
-  border: solid 1px green
+  border: 5px solid gray;
+  margin: 0;
 }
 
-#box2 {
-  padding: 8px;
-  border: solid 1px blue
+.navboximg {
+  border-radius: 50%;
 }
-
-#box3 {
-  padding: 10px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: row;
-  border: solid 1px green
-}
-
-#box4 {
-  flex-grow: 2;
-  border: solid 1px orange
-}
-
