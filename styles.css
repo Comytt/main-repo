@@ -47,20 +47,15 @@
   z-index: 1;
 }
 
-.navboxes {
-width: 500px;
-  padding: 10px;
-  border: 5px solid red;
-  margin: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.column {
   float: left;
-  z-index: 1;
+  width: 33.33%;
+  padding: 5px;
 }
 
-.navboximg {
-  border-radius: 75%;
-  display: inline;
-  z-index: 1;
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
