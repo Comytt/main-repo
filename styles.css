@@ -68,6 +68,8 @@
   border-color: red;
   border: 2px;
   padding-bottom: 30px;
+  color: black;
+  text-decoration: none;
 }
 .navbutton {
   font-family: "Open Sans", sans-serif;
@@ -90,8 +92,4 @@
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
   left: 5px;
-}
-
-.navbutlink {
-  text-decoration: none;
 }
