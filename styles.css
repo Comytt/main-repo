@@ -52,6 +52,9 @@
   width: 33.33%;
   padding: 5px;
   padding-top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 /* Clear floats after image containers */
