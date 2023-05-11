@@ -61,6 +61,6 @@ width: 500px;
 .navboximg {
   border-radius: 75%;
   display: inline;
-  /* float: left; */
+  float: left;
   z-index: 1;
 }
