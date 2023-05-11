@@ -55,12 +55,12 @@ width: 500px;
   bottom: 0;
   left: 0;
   right: 0;
+  float: left;
   z-index: 1;
 }
 
 .navboximg {
   border-radius: 75%;
   display: inline;
-  float: left;
   z-index: 1;
 }
