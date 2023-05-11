@@ -60,3 +60,9 @@
 .tablepr {
   text-align: center;
 }
+
+#navtable {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
