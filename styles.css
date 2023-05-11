@@ -62,9 +62,9 @@
 }
 
 .navtable {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   border-color: red;
   border: 2px;
 }
