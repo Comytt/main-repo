@@ -53,6 +53,10 @@
   border-radius: 50%;
 }
 
-#navtable {
+.tablehd {
+  text-align: center;
+}
+
+.tablepr {
   text-align: center;
 }
