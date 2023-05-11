@@ -47,18 +47,7 @@
   z-index: 1;
 }
 
-.column {
-  float: left;
-  width: 10%;
-  padding: 0px;
-  padding-top: 100px;
-  position: absolute;
-  bottom:0px; 
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: block;
+.tableimg {
+  width: 30%;
+  height: 30%;
 }
