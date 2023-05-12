@@ -49,9 +49,8 @@
 }
 
 .headertext {
-  position: fixed;
-  right: 750;
-  top: 200;
+  width: 50%;
+  margin: auto;
 }
 
 .mainhead {
