@@ -98,3 +98,8 @@
   color:  #87CEFA;
   text-decoration: none;
 }
+
+.navbutton:visited {
+  color: #87CEFA;
+  text-decoration: none;
+}
