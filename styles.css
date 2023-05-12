@@ -48,12 +48,12 @@
   z-index: 1;
 }
 
-#headertext {
+.headertext {
   left: 750px;
   top: 200px;
 }
 
-#mainhead {
+.mainhead {
   font-size: 50px;
 }
 
