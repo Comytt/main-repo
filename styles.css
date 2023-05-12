@@ -96,11 +96,11 @@ body {
 }
 
 .navbutlink {
-  color:  #87CEFA;
+  color:  #333333;
   text-decoration: none;
 }
 
 .navbutlink:visited {
-  color: #87CEFA;
+  color: #333333;
   text-decoration: none;
 }
