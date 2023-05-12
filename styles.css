@@ -50,8 +50,8 @@
 
 .headertext {
   position: fixed;
-  left: 0;
-  top: 0;
+  right: 750;
+  top: 200;
 }
 
 .mainhead {
