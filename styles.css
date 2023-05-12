@@ -49,6 +49,7 @@
 }
 
 .headertext {
+  position: relative;
   left: 750px;
   top: 200px;
 }
