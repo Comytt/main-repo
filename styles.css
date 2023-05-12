@@ -2,7 +2,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  background-image: url(/pictures/nadid.jpg);
+  background-image: url("/pictures/nadid.jpg");
   z-index: 100;
 }
 #notnav {
