@@ -94,7 +94,7 @@
   left: 5px;
 }
 
-.navbutton:link .navbutton:visited {
+.navbutlink {
   color:  #87CEFA;
   text-decoration: none;
 }
