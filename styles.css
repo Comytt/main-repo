@@ -49,7 +49,7 @@
 }
 
 .headertext {
-  position: relative;
+  position: fixed;
   left: 0;
   top: 200px;
 }
