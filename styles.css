@@ -48,6 +48,11 @@ body {
   z-index: 1;
 }
 
+#headertext {
+  left: 0;
+  top: 100;
+}
+
 .tableimg {
   width: 30%;
   height: 30%;
