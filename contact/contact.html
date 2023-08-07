@@ -20,32 +20,16 @@
 		max-width: 600px;
 		margin: 0 auto;
 		padding: 2rem;
-	}
-	.contact-form {
-		border: 1px solid #ddd;
-		border-radius: 5px;
-		padding: 1rem;
 		text-align: center;
 	}
-	.contact-form input,
-	.contact-form textarea {
-		width: 100%;
-		padding: 0.5rem;
-		margin: 0.5rem 0;
-		border: 1px solid #ddd;
-		border-radius: 5px;
-	}
-	.contact-form button {
-		background-color: #007bff;
-		color: white;
-		border: none;
-		border-radius: 5px;
-		padding: 0.5rem 1rem;
-		cursor: pointer;
+	.contact-box {
+		background-color: #87CEFA;
+		padding: 2rem;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	}
 	.social-links {
 		margin-top: 2rem;
-		text-align: center;
 	}
 	.social-links a {
 		display: inline-block;
@@ -56,61 +40,18 @@
 </style>
 </head>
 <body>
-	<div class="nav">
-		<ul>
-		  <li><a href="/index.html">Home</a></li>
-		  <li><a href="/team/team.html">Team</a></li>
-		  <li><a href="/events/events.html">Events</a></li>
-		  <li><a href="/contact/contact.html">Contact</a></li>
-		</ul>
-	  </div>
-	  <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 2rem;
-            text-align: center;
-        }
-        .social-links {
-            margin-top: 2rem;
-        }
-        .social-links a {
-            display: inline-block;
-            margin: 0 1rem;
-            font-size: 1.5rem;
-            color: #007bff;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Contact Us</h1>
-        <p>Connect with the Physics Club</p>
-    </header>
-	<div class="container">
-		<div class="contact-form">
-			<form action="contact.php" method="POST">
-				<input type="text" name="name" placeholder="Your Name" required>
-				<input type="email" name="email" placeholder="Your Email" required>
-				<textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-				<button type="submit">Send Message</button>
-			</form>
+<header>
+	<h1>Contact Us</h1>
+	<p>Connect with the Physics Club</p>
+</header>
+<div class="container">
+	<div class="contact-box">
+		<p>For inquiries, follow us on our social media:</p>
+		<div class="social-links">
+			<a href="mailto:yourclubemail@example.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></a>
+			<a href="https://www.instagram.com/yourclubinstagram/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.linktree.example/yourclublinktree" target="_blank" rel="noopener noreferrer"><i class="fa fa-link"></i></a>
 		</div>
-    <div class="container">
-        <div class="social-links">
-            <a href="mailto:yourclubemail@example.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></a>
-            <a href="https://www.instagram.com/yourclubinstagram/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
-        </div>
-    </div>
+	</div>
+</div>
 </body>
