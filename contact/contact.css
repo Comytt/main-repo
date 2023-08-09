@@ -71,8 +71,6 @@
   }
   .navtable {
     position: fixed;
-    bottom: 0;
-    left: 0;
     border-color: red;
     border: 2px;
     padding-bottom: 30px;
