@@ -72,6 +72,7 @@
   .navtable {
     display: flex;
     align-items: center;
+    justify-content: center;
     border-color: red;
     border: 2px;
     padding-bottom: 30px;
