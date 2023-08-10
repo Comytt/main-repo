@@ -1,86 +1,59 @@
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: #87CEFA;
 }
 
-.nav {
-    display: inline;
-    justify-content: flex-start;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #87CEFA; /* light blue color */
-    color: #fff;
-    padding: 10px;
-    z-index: 2;
-  }
-  .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-  }
-  
-  .nav li {
-    float: left;
-  }
-  
-  .nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  
-  .nav a:hover {
-    background-color: #555;
-    z-index: 1;
-  }
+.contact-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-  .contbutton {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;
-    cursor: pointer;
-    border: 3px solid;
-    padding: 0.25em 0.5em;
-    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
-    position: relative;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .contbutton:active {
-    box-shadow: 0px 0px 0px 0px;
-    top: 5px;
-    left: 5px;
-  }
-  
-  .contbutlink {
-    color:  #333333;
-    text-decoration: none;
-  }
-  
-  .contbutlink:visited {
-    color: #333333;
-    text-decoration: none;
-  }
-  .navtable {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-color: red;
-    border: 2px;
-    padding-bottom: 30px;
-    color: black;
-    text-decoration: none;
-    padding-right: 30px
-  }
+h1 {
+  margin-bottom: 20px;
+  color: #87CEFA;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.instagram {
+  background-color: #87CEFA;
+  color: #fff;
+}
+
+.email {
+  background-color: #87CEFA;
+  color: #fff;
+}
+
+.linktree {
+  background-color: #87CEFA;
+  color: #fff;
+}
+
+.contact-button:hover {
+  background-color: #4682B4;
+}
