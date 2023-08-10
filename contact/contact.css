@@ -30,30 +30,29 @@ h1 {
 
 .contact-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 15px 40px;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: #fff;
 }
 
 .instagram {
-  background-color: #87CEFA;
-  color: #fff;
+  background-color: #ff5a5f;
 }
 
 .email {
-  background-color: #87CEFA;
-  color: #fff;
+  background-color: #00b5ad;
 }
 
 .linktree {
-  background-color: #87CEFA;
-  color: #fff;
+  background-color: #ffa24c;
 }
 
 .contact-button:hover {
-  background-color: #4682B4;
+  background-color: #ff8a80;
+  transform: scale(1.05);
 }
