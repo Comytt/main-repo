@@ -56,7 +56,7 @@ h1 {
   background-color: #ff8a80;
   transform: scale(1.05);
 }
-.nav {
+#nav {
   display: inline;
   justify-content: flex-start;
   align-items: center;
@@ -69,7 +69,7 @@ h1 {
   padding: 10px;
   z-index: 1;
 }
-.nav ul {
+#nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -77,11 +77,11 @@ h1 {
   background-color: #333333;
 }
 
-.nav li {
+#nav li {
   float: left;
 }
 
-.nav li a {
+#nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -90,7 +90,7 @@ h1 {
 }
 
 
-.nav a:hover {
+#nav a:hover {
   background-color: #555;
   z-index: 1;
 }
