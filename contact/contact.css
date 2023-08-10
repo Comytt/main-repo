@@ -56,3 +56,41 @@ h1 {
   background-color: #ff8a80;
   transform: scale(1.05);
 }
+.nav {
+  display: inline;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #87CEFA; /* light blue color */
+  color: #fff;
+  padding: 10px;
+  z-index: 1;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+.nav a:hover {
+  background-color: #555;
+  z-index: 1;
+}
